@@ -1,0 +1,28 @@
+Ferramentas para build de projetos
+"Apache ant"
+//Automatiza o processo de build para executar testes, renomear arquivos, etc . . .
+
+
+Ferramentas para cuidar de build e das dependências dos projetos
+"Apache maven"
+//Automatiza o processo de build para executar testes, renomear arquivos, etc . . . E o processo de atualização de dependências.
+
+<build>
+	<plugins>
+		<plugin>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<configuration>
+				<source>11</source>
+				<target>11</target>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
+
+Comando de compilação no prompt de comando: dentro da pasta do projeto [mvn clean compile]
+
+Comando de execução dos testes no prompt de comando: dentro da pasta do projeto [mvn test]
+
+Comando para gerar o build no prompt de comando: dentro da pasta do projeto [mvn package]
+
+Comando para fazer os 3 no prompt de comando: dentro da pasta do projeto [mvn install]

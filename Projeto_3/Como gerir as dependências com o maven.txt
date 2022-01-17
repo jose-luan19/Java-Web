@@ -1,0 +1,20 @@
+Ferramentas para dependências de projetos
+"Apache IVY"
+//Automatiza o processo de atualização de dependências(bibliotecas e frameworks) . . .
+
+Ferramentas para cuidar de build e das dependências dos projetos
+"Apache maven"
+//Automatiza o processo de build para executar testes, renomear arquivos, etc . . . E o processo de atualização de dependências.
+
+Ex.: 
+<dependency>
+	<groupId>junit</groupId>
+	<artifactId>junit</artifactId>
+	<version>4.12</version>
+	<scope>test</scope>
+</dependency
+
+Pesquisar dependency no site do maven repository
+
+1º. O maven busca as dependências na maquina na pasta .m2
+2º. O maven pesquisará no repositorio central(mvnrepository) ou nos repositorios que você declaraou no pom.xml

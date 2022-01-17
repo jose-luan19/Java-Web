@@ -1,0 +1,7 @@
+src/main/java
+Esse diretorio contem todos seus arquivos .java
+
+src/main/resources
+Esse diretorio contem os arquivos que não são .java
+
+Para executar o maven em maquinas que modificam o proxy, deve-se criar um arquivo na pasta .m2 com o nome settings.xml para por asinformações do seu proxy.
