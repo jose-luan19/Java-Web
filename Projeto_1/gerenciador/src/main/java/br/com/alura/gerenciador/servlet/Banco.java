@@ -9,7 +9,7 @@ public class Banco {
 	private static List<Empresa> listaEmpresas = new ArrayList<Empresa>();
 	private static Integer chaveSequencial = 1;
 	
-	//Bloco estático que simula um DB e que já deixa cadastrado essas duas empresas.
+	//Bloco estatico que simula um DB e que ja deixa cadastrado essas duas empresas.
 //	static {
 //        Empresa empresa = new Empresa();
 //        empresa.setNome("Alura");
@@ -40,7 +40,7 @@ public class Banco {
 	        }
 		}
 		
-		//Não é possivel iterar uma coleção e modifica-la ao mesmo tempo
+		//Nao e possivel iterar uma colecao e modifica-la ao mesmo tempo
 //		for (Empresa empresa: listaEmpresas) { 
 //	        if(empresa.getId() == id ) {
 //	        	listaEmpresas.remove(empresa);

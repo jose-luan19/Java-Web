@@ -58,7 +58,7 @@ public class NovaEmpresaServlet extends HttpServlet {
 //		RequestDispatcher rd = request.getRequestDispatcher("/listaEmpresas");
         
         //Atribuindo valores ao requeste para que seja usada no JSP
-        //Precisa passar um nome para usar como referência no JSP, e um objeto
+        //Precisa passar um nome para usar como referencia no JSP, e um objeto
 //        request.setAttribute("empresa", empresa.getNome());
 //        rd.forward(request, response);
 		response.sendRedirect("listaEmpresas");

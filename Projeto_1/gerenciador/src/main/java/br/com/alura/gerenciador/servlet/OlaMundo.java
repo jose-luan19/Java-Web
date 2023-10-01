@@ -15,7 +15,7 @@ public class OlaMundo extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException {
-		//Escrevendo o código HTML no meu servidor, a partir da linguagem java, nada automatizado ainda
+		//Escrevendo o codigo HTML no meu servidor, a partir da linguagem java, nada automatizado ainda
 		PrintWriter out = resp.getWriter();
 		out.println("<html>");
 		out.println("<body>");
